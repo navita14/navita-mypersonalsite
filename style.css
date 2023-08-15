@@ -1,3 +1,59 @@
 body {
-    background: blue;
+    background-color: rgb(226, 185, 191);
+    text-align: center;
+}
+h1 {
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    style: blink;
+}
+h2 {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+}
+
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: none;
+    text-align: center;
+    /* padding-left: 500px; */
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: rgb(193, 75, 114);
+    /* float: left; */
+    /* margin-right: 200px; */
+    border:;
+    outline: black;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    width: 33%;
+    color: white;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: white;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: rgba(226, 148, 161, 0.95);
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
   }

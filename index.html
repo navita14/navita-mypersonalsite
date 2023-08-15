@@ -2,9 +2,47 @@
 <html lang="en">
   <head></head>
     <link rel="stylesheet" href="style.css" />
+    <meta charset="utf-8">
     <title>Navita's Personal Website</title>
   <body>
-    <h1>Hello World!</h1>
+    <h1>Navita Ramasar</h1>
+    <h2>Future Software Engineer</h2>
+
+<!-- Tab links -->
+    <div class="tab">
+        <button class="tablinks" onclick="myContent(event, 'aboutMe')">About Me</button>
+        <button class="tablinks" onclick="myContent(event, 'resume')">Business</button>
+        <button class="tablinks" onclick="myContent(event, 'facts')">My Favorites</button>
+    </div>
+  
+  <!-- Tab content -->
+    <div id="aboutMe" class="tabcontent">
+    <p>
+        <img src="file:///Users/navita/Desktop/IMG_1926%20(2).jpeg" alt=”Me” height=”300” width="300">
+        <h3>Facts About Me</h3>
+        <li>My Name is Navita Ramasar</li>
+        <li>I am 26 years old</li>
+        <li>I was born and raised in NYC</li>
+        <li>I was previously working in Human Resources but found a love for coding</li>
+        <li>I love to travel</li>
+
+    </p>
+    </div>
+  
+    <div id="resume" class="tabcontent">
+        <a href="file:///Users/navita/Desktop/Updated%20Resume%202023/Navita%20Ramasar%20Resume.pdf" 
+        <h1>Resume</h1>
+        </a>
+    </div>
+  
+    <div id="facts" class="tabcontent">
+        <h3>My Pups</h3>
+        <p>
+            <img src="file:///Users/navita/Desktop/image0%20(1).jpeg" alt=”Eliza” height=”250” width="300">
+            <img src="file:///Users/navita/Desktop/FullSizeRender.jpeg" alt=”Snow” height=”400” width="300">
+        </p>
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>
